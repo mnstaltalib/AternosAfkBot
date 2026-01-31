@@ -1,3 +1,6 @@
+const keepAlive = require('./keep_alive.js'); // استدعاء الملف
+keepAlive(); // تشغيل السيرفر
+
 const mineflayer = require('mineflayer')
 const pvp = require('mineflayer-pvp').plugin
 const {
@@ -276,3 +279,4 @@ app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);
     console.log('MADE BY HEALER')
 })
+
